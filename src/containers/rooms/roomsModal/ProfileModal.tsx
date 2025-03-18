@@ -13,7 +13,7 @@ export default function ProfileModal({
       width={"xl:w-[788px] md:w-[60%] w-[80%]"}
       height={"h-[450]"}
       setIsComplete={() => setIsClose(false)}
-      showCancelButton={"hidden"}
+      showCancelButton={{ cancel: "hidden" }}
     >
       <div className="flex xl:px-16 xl:gap-7 gap-3 xl:w-[90%] w-[80%]">
         <Image

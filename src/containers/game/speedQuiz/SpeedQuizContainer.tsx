@@ -135,8 +135,7 @@ export default function SpeedQuizContainer() {
           title={"🏆최종 점수🏆"}
           width={"xl:w-[788px] md:w-[60%] w-[80%]"}
           height={""}
-          showCancelButton={"hidden"}
-          showCompleteButton={"hidden"}
+          showCancelButton={{ cancel: "hidden", confirm: "hidden" }}
           setIsComplete={() => setIsOpen(false)}
         >
           <div

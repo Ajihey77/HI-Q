@@ -199,8 +199,7 @@ export default function OXQuizeContainer() {
           title={"🏆최종 점수🏆"}
           width={"xl:w-[788px] md:w-[60%] w-[80%]"}
           height={"h-[268px]"}
-          showCancelButton={"hidden"}
-          showCompleteButton={"hidden"}
+          showCancelButton={{ cancel: "hidden", confirm: "hidden" }}
           setIsComplete={() => setIsOpen(false)}
         >
           <div

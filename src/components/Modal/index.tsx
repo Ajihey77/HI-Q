@@ -29,8 +29,7 @@ export default function Modal({
     >
       {children}
       <ModalButton
-        isVisible={showCancelButton}
-        isVisible2={showCompleteButton}
+        visibility={showCancelButton}
         setIsClose={setIsClose}
         setIsComplete={setIsComplete}
       />

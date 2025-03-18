@@ -3,7 +3,7 @@ export interface modalProp {
   width: string;
   height: string;
   className?: string;
-  showCancelButton?: string;
+  showCancelButton?: { cancel?: string; confirm?: string };
   showCompleteButton?: string;
   children: React.ReactNode;
 }

@@ -70,7 +70,7 @@ export default function RoomActionButtons() {
           title={"알림창"}
           width={"xl:w-[788px] md:w-[60%] w-[80%]"}
           height={"h-[268px]"}
-          showCancelButton={"hidden"}
+          showCancelButton={{ cancel: "hidden" }}
           setIsComplete={() => setIsOpenModal(false)}
         >
           <div
