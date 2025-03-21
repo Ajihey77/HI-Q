@@ -18,7 +18,7 @@ export default function RoundButton({
   className?: string;
 }) {
   return (
-    <div
+    <button
       className={`
         flex items-center justify-center 
         rounded-[8px] md:rounded-[12px] 2xl:rounded-[12px] 
@@ -39,6 +39,6 @@ export default function RoundButton({
       ) : (
         text
       )}
-    </div>
+    </button>
   );
 }
