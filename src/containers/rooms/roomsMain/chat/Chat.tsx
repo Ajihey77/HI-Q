@@ -20,11 +20,9 @@ import {
 export default function Chat({
   roomInfo,
   setUserList,
-  setPlayList,
 }: {
   roomInfo: string;
   setUserList: Dispatch<SetStateAction<roomUserListData | undefined>>;
-  setPlayList: Dispatch<SetStateAction<playerData | undefined>>;
 }) {
   const params = useParams();
   const router = useRouter();
@@ -32,7 +30,6 @@ export default function Chat({
   const { setIsQuizisReady, setQuizeSet } = useIsRoomStore();
   const { token } = useLoginStore();
 
-  const isFirstRender = useRef<boolean>(true);
   const inputRef = useRef<HTMLInputElement>(null);
   const lastMessageRef = useRef<HTMLInputElement>(null);
 
@@ -61,17 +58,6 @@ export default function Chat({
       }
     );
     setUserList(response);
-  };
-
-  const fetchPlayerList = async () => {
-    const response = await defaultFetch<playerData>(
-      `/room/${params.id}/game/players`,
-      {
-        method: "GET",
-      }
-    );
-    console.log(response);
-    setPlayList(response);
   };
 
   /*
@@ -110,12 +96,10 @@ export default function Chat({
 
       if (msg.event) {
         fetchUserList();
-        fetchPlayerList();
       }
     };
     subscribeToTopic(`/topic/room/${params.id}`, handleNewMessage);
     fetchUserList();
-    fetchPlayerList();
 
     return () => {
       unsubscribeFromTopic(`/topic/room/${params.id}`);
