@@ -17,7 +17,7 @@ import SpeedOXFooter from "../../../components/SpeedOXFooter";
 import { useIsRoomStore } from "../../../store/roomStore";
 import { useInitializeGame } from "../../../service/hooks/useInitializeGame";
 import { useLoginStore } from "../../../store/store";
-import { QuizeMsgType, quizeUserList } from "../../../types/quize";
+import { QuizeMsgType } from "../../../types/quize";
 
 export default function SpeedQuizContainer() {
   const router = useRouter();
@@ -30,9 +30,6 @@ export default function SpeedQuizContainer() {
     { message: string; sender: string; event?: string }[]
   >([]);
   const [quize, setQuize] = useState<string>("");
-  const [midAnswer, setMidAnswer] = useState<string>("");
-  // const [showAnswer, setShowAnswer] = useState<boolean>(false);
-
   const { user, scoreList, isOpen, setIsOpen, fetchUserList, fetchScoreList } =
     useInitializeGame(id);
 
@@ -124,7 +121,7 @@ export default function SpeedQuizContainer() {
         style={{ backgroundImage: "url('/assets/images/bg.png')" }}
       >
         <div className="w-[90vw]">
-          <QuizBoard quize={quize} chat={chatList} midAnswer={midAnswer} />
+          <QuizBoard quize={quize} chat={chatList} />
           <QuizMain chat={chatList} userList={user!} scoreList={scoreList!} />
           <SpeedOXFooter chat={chatList} />
         </div>
