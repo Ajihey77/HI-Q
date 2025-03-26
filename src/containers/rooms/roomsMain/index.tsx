@@ -1,12 +1,7 @@
 import UserList from "./user/UserList";
 import Chat from "./chat/Chat";
 import { useState } from "react";
-import {
-  playerData,
-  roomInfoData,
-  roomPlayListData,
-  roomUserListData,
-} from "../../../types/Room";
+import { roomInfoData, roomUserListData } from "../../../types/Room";
 
 export default function RoomsMain({ roomInfo }: { roomInfo: roomInfoData }) {
   const [userList, setUserList] = useState<roomUserListData>();

@@ -8,13 +8,7 @@ import UserCard from "./UserCard";
 import DeportModal from "../../roomsModal/DeportModal";
 import MenuModal from "../../roomsModal/MenuModal";
 import ProfileModal from "../../roomsModal/ProfileModal";
-import {
-  playerData,
-  roomPlayList,
-  roomPlayListData,
-  roomUserList,
-  roomUserListData,
-} from "../../../../types/Room";
+import { roomUserList, roomUserListData } from "../../../../types/Room";
 
 export default function UserList({ userList }: { userList: roomUserListData }) {
   console.log("userList", userList);
