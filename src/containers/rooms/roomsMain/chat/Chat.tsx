@@ -11,11 +11,7 @@ import {
 import { defaultFetch } from "../../../../service/api/defaultFetch";
 import { useIsRoomStore } from "../../../../store/roomStore";
 import { useLoginStore } from "../../../../store/store";
-import {
-  playerData,
-  roomPlayListData,
-  roomUserListData,
-} from "../../../../types/Room";
+import { roomUserListData } from "../../../../types/Room";
 
 export default function Chat({
   roomInfo,
