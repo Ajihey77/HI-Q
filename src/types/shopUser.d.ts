@@ -1,4 +1,4 @@
-export interface ShopUserData {
+interface ShopUserData {
   points: number;
   nickname: string;
   eye: { itemId: number; imageUrl: string };
