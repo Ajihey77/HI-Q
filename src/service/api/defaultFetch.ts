@@ -1,11 +1,11 @@
 type FetchOptions = {
-  method?: "GET" | "POST" | "PUT" | "DELETE"; // HTTP 메서드
-  headers?: Record<string, string>; // 요청 헤더
-  body?: string; // 요청 본문 (주로 POST, PUT에서 사용)
+  method?: "GET" | "POST" | "PUT" | "DELETE";
+  headers?: Record<string, string>;
+  body?: string;
 };
 
 export async function defaultFetch<T>(
-  endpoint: string, // (ex: "/users", "posts/1" etc..)
+  endpoint: string,
   options: FetchOptions = {}
 ): Promise<T> {
   const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
