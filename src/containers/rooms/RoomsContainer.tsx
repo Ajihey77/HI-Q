@@ -32,7 +32,7 @@ export default function RoomsContainer() {
       setIsLoading(false);
     } catch (err) {
       console.error("방 정보 로딩 실패:", err);
-      setError("방 정보를 불러오는데 실패했습니다.");
+      setError("방 정보를 불러오는데 실패했습니다....");
       setIsLoading(false);
     }
   };
