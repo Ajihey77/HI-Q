@@ -154,7 +154,7 @@ export default function Chat({
           xl:pl-6 pl-3 xl:pb-0 md:pb-2 xl:h-14 h-11  
           xl:placeholder:text-[20px] placeholder:text-[14px] placeholder:text-gray-500  
           "
-        placeholder="메시지를 입력하세요"
+        placeholder="메시지를 입력하세요..."
         onKeyDown={handleKeyDown}
       />
     </div>
