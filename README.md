@@ -13,20 +13,41 @@
 
 **🚪 로비를 통해 생성된 방을 확인하고 입장할 수 있습니다**
 
-<img width="1400" alt="모임 글 리스트 캡처 화면" src="https://github.com/user-attachments/assets/fae466fb-5703-43ab-a336-691aa670b20e">
+<img width="1400" alt="로비" src="https://github.com/user-attachments/assets/31bca238-3ef8-47f8-936b-09f6927e9ff5">
 
+<br/>
 <br/>
 
 **📌 로비 , 대기 방 , 게임방에서 채팅으로 소통할 수 있습니다**
 
+<img width="1400" alt="게임방 채팅" src="https://github.com/user-attachments/assets/e7109ff5-5746-4e69-9cee-c75100527b5a">
 
+<br/>
+<br/>
 
 **📌 대기 방에 입장하여 유저가 모이면 게임을 시작할 수 있습니다**
 
+| 준비 및 퀴즈선택 | 게임 시작 |
+|----------|----------|
+|<img width="475" alt="준비" src="https://github.com/user-attachments/assets/bfe966c4-bb9c-4b5b-bdcb-88b448b9819f">|<img width="475" alt="게임 시작" src="https://github.com/user-attachments/assets/ff738ad7-2636-400e-9f75-53ae9e932061">|
+
+<br/>
+<br/>
+
 **📌 게임방을 통해 스피드퀴즈 / OX 퀴즈 게임을 플레이할 수 있습니다**
+
+| 스피드 퀴즈 | OX 퀴즈 |
+|----------|----------|
+|<img width="475" alt="게임방 채팅" src="https://github.com/user-attachments/assets/780b2481-c46a-42e3-a43c-698ae630ff85">|<img width="475" alt="게임방 채팅" src="https://github.com/user-attachments/assets/26bfe9bd-dfc1-4574-8a98-de0135d0468c">|
+
+<br/>
+<br/>
 
 **📌 프로필 편집을 통해 캐릭터의 외형을 변경할 수 있습니다**
 
+<img width="1400" alt="프로필 편집" src="https://github.com/user-attachments/assets/fb58eaf3-fa52-4868-9285-1245200597ab">
+
+<br/>
 <br/>
 
 ## 💻 Tech Stack                               
