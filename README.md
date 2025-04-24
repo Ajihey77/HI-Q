@@ -7,7 +7,12 @@
 **하이큐** 는 유저들이 실시간으로 모여 채팅을 통해 스피드 퀴즈와 OX 퀴즈를 즐기며 소통하고 경쟁할 수 있는 서비스입니다.
 <br><br>  향후 퀴즈 카테고리를 교육적인 방향으로 확장한다면, 유저들이 재미있게 학습할 수 있는 환경을 조성할 수 있어 교육 플랫폼으로서의 발전 가능성도 기대할 수 있습니다.
 
- 
+ ## 📗 Velog 
+<div align="center">
+	
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=jhey77&slug=팀프로젝트-실시간-퀴즈-게임-HIQ)](https://velog.io/@jhey77/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%80%B4%EC%A6%88-%EA%B2%8C%EC%9E%84-HIQ)
+
+</div>
 
 ## 🏅 End result 
 
